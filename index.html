@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owfont-regular.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <div class="container">
+    <time class="time"></time>
+
+    <div class="greeting__name">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter name]">
+    </div>
+
+    <div class="date__container">
+      Today is
+      <span class="date"></span>
+    </div>
+
+    <div class="weather">
+      <span>Your city:</span>
+      <input type="text" class="weather__city" placeholder="[Enter City]">
+      <div class="temp">
+        temperature:
+        <span class="weather__temp"></span>
+        <i class="weather-icon owf"></i>
+      </div>
+      <div class="humidity">
+        humidity:
+        <span class="weather__humidity"></span>
+      </div>
+      <div class="wind">
+        wind speed:
+        <span class="weather__wind"></span>
+      </div>
+    </div>
+
+    <div class="focusBox">
+      <div>What Is Your Focus For Today?</div>
+      <!-- <span>[Your Focus]</span> -->
+      <input type="text" class="focus" placeholder="[Enter Focus]">
+    </div>
+
+    <div class="quotes__container">
+      <div class="quotes"></div>
+      <p class="quotes__author"></p>
+    </div>
+    
+    <button class="btn"></button>
+  </div>  
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
